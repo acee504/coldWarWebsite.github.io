@@ -1,0 +1,242 @@
+body {
+  height: 1350px;
+}
+
+.h1 {
+  top: 100px;
+  margin-left: 0.46511627906976744em;
+  position: absolute;
+  width: 1350px;
+  height: 76px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.t1 {
+  margin-left: 40px;
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  width: 638px;
+  height: 336px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 290px;
+}
+.t2 {
+  margin-left: 900px;
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  width: 638px;
+  height: 336px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 320px;
+}
+.t3 {
+  text-align: center;
+  margin-left: 350px;
+  position: absolute;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  width: 938px;
+  height: 336px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 720px;
+}
+.nextPoint {
+  position: absolute;
+  width: 440px;
+  height: 110px;
+  flex-shrink: 0;
+  margin-left: 650px;
+  margin-top: 1100px;
+}
+
+.header {
+  height: 120px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  position: absolute;
+  display: flex;
+
+  border-radius: 0px 0px 30px 30px;
+  background: #b33c3c;
+}
+.indledning {
+  display: none;
+}
+.baggrundsViden {
+  display: none;
+}
+.problemformulering {
+  display: none;
+}
+.emnebehandling {
+  display: none;
+}
+.perspektivering {
+  display: none;
+}
+.konklusion {
+  display: none;
+}
+.kilder {
+  display: none;
+}
+@media (min-width: 720px) {
+  .header {
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    border-radius: 0px 0px 30px 30px;
+    background: #b33c3c;
+  }
+  .indledning {
+    margin-left: 2.0833333333333335em;
+    position: absolute;
+    display: flex;
+    width: 256px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .baggrundsViden {
+    margin-left: 9.583333333333334em;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .problemformulering {
+    margin-left: 18.75em;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .emnebehandling {
+    margin-left: 30.416666666666668em;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .perspektivering {
+    margin-left: 40em;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .konklusion {
+    margin-left: 50em;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .kilder {
+    margin-left: 1400px;
+    position: absolute;
+    display: flex;
+    width: 108px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

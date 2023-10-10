@@ -1,0 +1,320 @@
+body {
+  height: 1880px;
+}
+.h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 150px;
+  width: 900px;
+}
+.h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 40px;
+}
+.est {
+  position: absolute;
+  margin-top: 390px;
+  margin-left: 40px;
+}
+.estT {
+  color: #000;
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 430px;
+}
+.ukr {
+  position: absolute;
+  margin-top: 690px;
+  margin-left: 40px;
+}
+.ukrT {
+  color: #000;
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 660px;
+}
+.gor {
+  position: absolute;
+  margin-top: 990px;
+  margin-left: 40px;
+}
+.gorT {
+  color: #000;
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 970px;
+}
+.arm {
+  position: absolute;
+  margin-top: 1290px;
+  margin-left: 40px;
+}
+.armT {
+  color: #000;
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 1280px;
+}
+.kaz {
+  position: absolute;
+  margin-top: 1590px;
+  margin-left: 40px;
+}
+.kazT {
+  color: #000;
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 1620px;
+}
+#mario {
+  right: 380px;
+  margin-top: 380px;
+}
+.t1 {
+  color: #000;
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-top: 420px;
+  right: 185px;
+}
+#konk {
+  right: 490px;
+  margin-top: 1080px;
+}
+.t2 {
+  color: #000;
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-top: 1125px;
+  right: 185px;
+}
+.nextPoint {
+  position: absolute;
+  width: 440px;
+  height: 110px;
+  right: 250px;
+  margin-top: 1650px;
+}
+
+.header {
+  height: 120px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  position: absolute;
+  display: flex;
+
+  border-radius: 0px 0px 30px 30px;
+  background: #b33c3c;
+}
+.indledning {
+  display: none;
+}
+.baggrundsViden {
+  display: none;
+}
+.problemformulering {
+  display: none;
+}
+.emnebehandling {
+  display: none;
+}
+.perspektivering {
+  display: none;
+}
+.konklusion {
+  display: none;
+}
+.kilder {
+  display: none;
+}
+@media (min-width: 720px) {
+  .header {
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    border-radius: 0px 0px 30px 30px;
+    background: #b33c3c;
+  }
+  .indledning {
+    margin-left: 50px;
+    position: absolute;
+    display: flex;
+    width: 256px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .baggrundsViden {
+    margin-left: 230px;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .problemformulering {
+    margin-left: 450px;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .emnebehandling {
+    margin-left: 730px;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .perspektivering {
+    margin-left: 960px;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .konklusion {
+    margin-left: 1200px;
+    position: absolute;
+    display: flex;
+    width: 258px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .kilder {
+    margin-left: 1400px;
+    position: absolute;
+    display: flex;
+    width: 108px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

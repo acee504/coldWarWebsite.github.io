@@ -6,8 +6,8 @@ body {
   width: 440px;
   height: 110px;
   flex-shrink: 0;
-  right: 20px;
-  margin-top: 2370px;
+  right: 110px;
+  margin-top: 2340px;
 }
 .h2 {
   color: #000;
@@ -78,10 +78,31 @@ body {
 .economy3Text {
   display: flex;
   position: absolute;
-  margin-left: 40px;
-  width: 669px;
+  width: 469px;
   height: 375px;
-  margin-top: 785px;
+  margin-top: 1360px;
+  margin-left: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#economy4 {
+  margin-top: 1870px;
+  margin-left: 1000px;
+}
+.economy4Text {
+  display: flex;
+  position: absolute;
+  width: 469px;
+  height: 375px;
+  margin-top: 1900px;
+  margin-left: 1000px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
@@ -105,6 +126,14 @@ body {
   position: absolute;
   left: 40px;
   margin-top: 1150px;
+}
+.img3 {
+  width: 926px;
+  height: 710.733px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 40px;
+  margin-top: 1650px;
 }
 .header {
   height: 120px;
