@@ -12,13 +12,16 @@
   font-weight: 700;
   line-height: normal;
 }
+body {
+  height: 1050px;
+}
 .nextPoint {
   position: absolute;
   width: 440px;
   height: 110px;
   flex-shrink: 0;
   left: 40px;
-  bottom: 40px;
+  margin-top: 900px;
 }
 .link {
   position: absolute;
